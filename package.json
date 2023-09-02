@@ -1,0 +1,19 @@
+{
+  "name": "cordova-firebase",
+  "version": "1.0.0",
+  "description": "Cordova plugin support firebase",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveleetn91/cordova-firebase.git"
+  },
+  "author": "stevelee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steveleetn91/cordova-firebase/issues"
+  },
+  "homepage": "https://github.com/steveleetn91/cordova-firebase#readme"
+}
