@@ -21,27 +21,6 @@ Next step you need insert into `config.xml`. Remember change value by info your 
 
 Now you can check changes on Dashboard Firebase.
 
-
-## How to use? 
-
-Call:
-
-    window.googlesignin.googlesignin().then(() => {
-
-    }).catch(() => {
-
-    });
-
-Recieve:
-
-    document.addEventListener("google.signin.DONE",(resp) => {
-        console.log(resp.token);
-    })
-
-    document.addEventListener("google.signin.FAIL",() => {
-        // do a something
-    })
-
 ## Issue 
 
 If you need anything please create new issue `https://github.com/steveleetn91/cordova-firebase/issues`
