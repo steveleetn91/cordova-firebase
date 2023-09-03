@@ -19,7 +19,8 @@ First you need setup firebase project then you will have file `GoogleService-Inf
 
     cordova plugin add https://github.com/steveleetn91/cordova-firebase.git
 
-Now you can check changes on Dashboard Firebase.
+Now you can check changes on Dashboard Firebase. After install plugin if you run build will appear errors because you haven't Firebase Package for iOS.
+Now please open Xcode open your project after that `File->Add Package` and import `https://github.com/firebase/firebase-ios-sdk.git`. Last step you can build project.
 
 ## Issue 
 
