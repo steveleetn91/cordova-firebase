@@ -27,6 +27,16 @@
     </platform>
 
     <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="CordovaFirebase">
+                <param name="ios-package" value="CordovaFirebase" />
+                <param name="onload" value="true" />
+            </feature>
+            <source-file src="GoogleService-Info.plist" />
+        </config-file>
+
+        <header-file src="native/ios/CordovaFirebase.h" />
+        <source-file src="native/ios/CordovaFirebase.m" />
         
     </platform>
     

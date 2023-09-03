@@ -2,18 +2,18 @@
 Cordova plugin support firebase 
 ## Support OS
     - Android -> yes
-    - iOS -> No
-## Prepare 
+    - iOS -> Yes
+## Android 
+
+### Prepare 
 
 First you need setup firebase project, then you will have file `google-services.json`. Please copy it to root folder.
-Next step you need insert into `config.xml`. Remember change value by info your project.
 
-    <platform name="android">
-        <config-file target="res/values/strings.xml" parent="/*">
-            <string name="google_app_id">xxxxxxxx</string>
-            <string name="server_client_id">xxxxxxxxxx</string>
-        </config-file> 
-    </platform>
+## iOS 
+
+### Prepare 
+
+First you need setup firebase project then you will have file `GoogleService-Info.plist`, next step copy it into your project.
 
 ## How to install? 
 
