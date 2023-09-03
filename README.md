@@ -13,7 +13,12 @@ First you need setup firebase project, then you will have file `google-services.
 
 ### Prepare 
 
-First you need setup firebase project then you will have file `GoogleService-Info.plist`, next step copy it into your project.
+First you need setup firebase project then you will have file `GoogleService-Info.plist`, next step copy it into your project. Next step 
+you shuold add:
+
+    <platform name="ios">
+        <resource-file src="GoogleService-Info.plist" />
+    </platform>
 
 ## How to install? 
 
