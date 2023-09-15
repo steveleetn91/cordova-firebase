@@ -36,6 +36,15 @@
 
         <header-file src="native/ios/CordovaFirebase.h" />
         <source-file src="native/ios/CordovaFirebase.m" />
+
+        <podspec>
+            <pods use-frameworks="true">
+                <pod name="FirebaseAnalytics" git="https://github.com/firebase/firebase-ios-sdk.git" 
+                branch="release-10.8" configurations="Debug,Release"/>
+                <pod name="GoogleAppMeasurement" git="https://github.com/firebase/firebase-ios-sdk.git" 
+                branch="release-10.8" configurations="Debug,Release"/>
+            </pods>
+        </podspec>
         
     </platform>
     
